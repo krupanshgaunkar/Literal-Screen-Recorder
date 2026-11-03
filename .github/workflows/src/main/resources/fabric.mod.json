@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "literal-screen-recorder",
+  "version": "${version}",
+  "name": "Literal Screen Recorder",
+  "description": "A low-overhead Minecraft screen recorder and replay mod.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/literal-screen-recorder/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.linearscreenrecorder.LiteralScreenRecorder"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
